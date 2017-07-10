@@ -1,0 +1,4 @@
+{:secrets #include #join [#env HOME "/.secrets.edn"]
+ :subname ^:ref [:secrets :dmkdev :subname]
+ :user ^:ref [:secrets :dmkdev :user]
+ :password ^:ref [:secrets :dmkdev :password]}
